@@ -6,23 +6,29 @@ body {
 }
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 50px;
     padding: 20px;
     background-color:#FFF2A1;
+    display: flex;
+    
 }
-.header {
+/*.header {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
-}
+}*/
 .coffee-image {
-    width: 50%;
+    width: 120%;
     max-height: 1080px;
-    object-fit: cover;
+
 }
 .caption {
     text-align: center;
     font-size: 50px;
     margin-top: 10px;
+}
+.container-div{
+    display: flex;
+    padding: 0 50px;
 }
